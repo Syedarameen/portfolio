@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Skills - Rameen Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Syeda <span>Rameen Ali</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="service.html">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="service.html">Services</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="skills-wrapper">
+            <div class="skills-container">
+                <h1>My Skills</h1>
+
+                <!-- Programming Languages -->
+                <div class="skill-category" data-aos="fade-right" data-aos-duration="1500">
+                    <h2>Programming Languages</h2>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java"></i>
+                        <div class="skill-details">
+                            <p>Java</p>
+                            <p>Beginner</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <div class="skill-details">
+                            <p>Python</p>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <div class="skill-details">
+                            <p>JavaScript</p>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category" data-aos="fade-left" data-aos-duration="1500">
+                    <h2>Web Development</h2>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <div class="skill-details">
+                            <p>HTML & CSS</p>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <div class="skill-details">
+                            <p>WordPress</p>
+                            <p>Proficient</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code"></i>
+                        <div class="skill-details">
+                            <p>MERN Stack</p>
+                            <p>Beginner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools and Other Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1500">
+                    <h2>Tools & Other Skills</h2>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="skill-details">
+                            <p>MS Office</p>
+                            <p>Expert</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-comments"></i>
+                        <div class="skill-details">
+                            <p>Communication</p>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <div class="skill-details">
+                            <p>Problem-solving</p>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
